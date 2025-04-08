@@ -45,7 +45,7 @@ header("Expires: 0");
                 <th>Judul Buku</th>
                 <th>Tanggal Pinjam</th>
                 <th>Tanggal Kembali</th>
-                <th>Total Denda</th>
+              
                 <th>Status</th>
             </tr>
         </thead>
@@ -60,7 +60,7 @@ header("Expires: 0");
                 <td><?= htmlspecialchars($l['judul_buku']); ?></td>
                 <td><?= htmlspecialchars($l['tgl_pinjam']); ?></td>
                 <td><?= htmlspecialchars($l['tgl_kembali']); ?></td>
-                <td><?= number_format($l['total_denda'], 0, ',', '.'); ?></td>
+              
                 <td><?= htmlspecialchars($l['status']); ?></td>
             </tr>
             <?php endforeach; ?>

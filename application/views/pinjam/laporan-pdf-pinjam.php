@@ -29,7 +29,7 @@ font-family:Verdana;
 <th>Tanggal Pinjam</th> 
 <th>Tanggal Kembali</th> 
 
-<th>Total Denda</th> 
+
 <th>Status</th> 
 </tr> 
  
@@ -44,7 +44,7 @@ foreach($laporan as $l){
 <td><?= $l['tgl_pinjam']; ?></td> 
 <td><?= $l['tgl_kembali']; ?></td> 
 
-<td><?= $l['total_denda']; ?></td> 
+
 <td><?= $l['status']; ?></td> 
 </tr> 
 <?php 
